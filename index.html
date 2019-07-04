@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+1. Что такое &lt;ol&gt;, &lt;ul&gt; и &lt;li&gt;?
+    ol - нумерованный список, ul - не нумерованный, li - элемент списка.
+<br>
+2. Сверстать сложную таблицу с объединением строк и столбцов.
+    <table>
+        <tr>
+            <td>Item 1</td>
+            <td colspan="2">Item 2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Item 3</td>
+            <td>Item 4</td>
+            <td>Item 5</td>
+        </tr>
+        <tr>
+            <td>Item 3</td>
+            <td>Item 4</td>
+        </tr>
+    </table>
+<br>
+3. В каком регистре лучше писать HTML-код?
+    В нижнем.
+<br>
+4. Как убрать синюю рамку вокруг картинки-ссылки?
+    border: none
+<br>
+5. Обязательно ли писать alt в &lt;img&gt;?
+    Не обязательно.
+<br>
+6. Что такое html-entities?
+    Специальные символы, которые могут быть восприняты как HTML-код, а также невидимые символы и символы недоступные с
+клавиатуры. Они начинаются со знака & и заканчиваются ;
+<br>
+7. Как убрать подчеркивание для всех ссылок на странице?
+    a {text-decoration: none;}
+<br>
+8. Что делает свойство clear?
+    Отменяет обтекание элемента.
+<br>
+9. Есть ячейка таблицы, в ней 3 дива, в каждом диве – по слову. На первый див применен стиль float: left; на третий –
+float: right. Что нужно применить на второй див, чтобы все три надписи/дивы были в одной горизонтальной строке, то есть
+первый имел бы выравнивание по левому краю, третий – по правому, а второй – по центру?
+    float: left; margin-left: 33%
+<br>
+10. Перечислить по пять знакомых вам псевдоклассов и псевдостилей с указанием их функционала.
+    hover, active, visited, checked, focus. Псевдостили не знаю, возможно имелись ввиду псевдоэлементы.
+<br>
+11. Нарисовать при помощи CSS3 дом на фоне неба и плывущие облака.
+    <div class="container">
+        <div class="cloud">
+            <div class="cloud-part1"></div>
+            <div class="cloud-part2"></div>
+        </div>
+        <div class="cloud cloud-1">
+            <div class="cloud-part1"></div>
+            <div class="cloud-part2"></div>
+        </div>
+        <div class="cloud cloud-2">
+            <div class="cloud-part1"></div>
+            <div class="cloud-part2"></div>
+        </div>
+        <div class="cloud cloud-3">
+            <div class="cloud-part1"></div>
+            <div class="cloud-part2"></div>
+        </div>
+        <div class="cloud cloud-4">
+            <div class="cloud-part1"></div>
+            <div class="cloud-part2"></div>
+        </div>
+        <div class="house">
+            <div class="roof"></div>
+            <div class="house-body"></div>
+        </div>
+    </div>
+
+</body>
+</html>

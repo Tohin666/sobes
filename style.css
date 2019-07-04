@@ -1,0 +1,111 @@
+td {
+    border: 1px solid black;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #93e0ff;
+    padding-top: 50px;
+    /*box-sizing: border-box;*/
+    position: relative;
+    overflow: hidden;
+}
+
+@-moz-keyframes cloud-move {
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+@-webkit-keyframes cloud-move {
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+@-o-keyframes cloud-move {
+    0% {
+        margin-left: 1000px;
+    }
+    100% {
+        margin-left: -1000px;
+    }
+}
+
+.cloud {
+    width: 200px;
+    height: 60px;
+    background: #fff;
+    border-radius: 200px;
+    position: relative;
+    animation: cloud-move 15s linear infinite;
+}
+
+.cloud-part1 {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 100px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+}
+
+.cloud-part2 {
+    width: 85px;
+    height: 85px;
+    background: #fff;
+    border-radius: 85px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.cloud-1 {
+    margin: 100px;
+    right: 100px;
+}
+
+.cloud-2 {
+    margin: -50px;
+    left: 300px;
+}
+
+.cloud-3 {
+    margin: -300px;
+    left: 600px;
+}
+
+.cloud-4 {
+    margin: 400px;
+    left: 800px;
+}
+
+.house {
+    position: absolute;
+    bottom: 0;
+    left: 250px;
+}
+
+.roof {
+    border: 150px solid transparent;
+    border-bottom: 150px solid #890012;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+}
+
+.house-body {
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #890012;
+}
